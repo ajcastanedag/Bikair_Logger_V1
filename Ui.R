@@ -128,6 +128,9 @@ ui <- tagList(
                                     
                                     h4(strong("Sentinel 5p data"), align = "left")
                       )
+             ),
+             tabPanel("About", icon = icon("globe"),
+                      leafletOutput("About", width="100%", height="100%")
              )
   )
 )
