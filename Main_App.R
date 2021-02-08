@@ -9,6 +9,8 @@ ipak <- function(pkg){
   
   sapply(pkg, require, character.only = TRUE)
   
+  webshot::install_phantomjs()
+  
 }
 ########################################################################################
 # Load libraries
@@ -25,4 +27,3 @@ source("Server.R")
 ########################################################################################
 shinyApp(ui, server)
 ########################################################################################
-#write.table(Data,"tester.txt",sep = ",",row.names = F,quote = F)
