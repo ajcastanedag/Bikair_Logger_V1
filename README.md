@@ -10,14 +10,16 @@ Bikair is a project developed by students from the 4th Generation EAGLE graduate
 
 ## Usage
 
-To visualize the results, you could follow the next steps:
-1. Download the code ![Download](
+### First Steps 
+To visualize the logger, you could follow the next steps:
+1. Download the code ![Download](/www/download.PNG "Download button")
 2. Unzip the file  
 3. Open the project `Bikair_Logger_V1.Rproj`
 4. Run the code `Main_App.R`
 <br>
-
-### 
+After running the code, a new window with the logger will open.  At first, it will look like the following picturet figure <br>
+![App](/www/app.PNG) <br>
+ 
 ### Load File
 
 
