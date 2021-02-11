@@ -1,4 +1,7 @@
-[Bikair logo](/www/Logo.png "Bikair logo")
+
+<p>
+    <img src="/www/Logo.png" width="250" />
+</p>
 
 # Bikair_Logger_V1
 This repository contains the first version of the BikAIr Logger. It allows visualizing the data collected from the BikAIr project. <br>
@@ -16,36 +19,35 @@ To visualize the logger, you could follow the next steps:
 2. Unzip the file  
 3. Open the project `Bikair_Logger_V1.Rproj`
 4. Run the code `Main_App.R`
-<br>
+
 After running the code, a new window with the logger will open.  At first, it will look like the following figure. 
-<br>
 
 <p>
-    <img src="/www/app.PNG" />
+    <img src="/www/app.PNG" width="850" />
 </p>
 <br>
 
 ### Data Import 
 #### Load File
-The following step is uploading the data. This is possible from the `Data Import` tab. In the left corner, there is a `Browse` button. By clicking it, you can select the file with the data. It is located in the folder of the repository `\Bikair_Logger_V1-main\Data`
+The following step is uploading the data. This is possible from the `Data Import` tab. In the left corner, there is a `Browse` button. By clicking it, you can select the file with the data. It is located in the folder of the repository `\Bikair_Logger_V1-main\Data` <br>
 <p>
-    <img src="/www/Load data.PNG" />
+    <img src="/www/Load data.PNG" width="850" />
 </p>
 
 #### Table Display
 After loading the file, a table with the data will be displayed. In the left panel you can select variables and observe some statistics such as the median, quartiles, and the minimum and maximum value. <br>
 
-The variable selected would work as a starting point for the next steps. It could be changed afterward. 
+The variable selected would work as a starting point for the next steps. It could be changed afterward. <br>
 
 <p>
-    <img src="/www/data_import.PNG" />
+    <img src="/www/data_import.PNG" width="850" />
 </p>
 
 ### Interactive Map
 In the `Interactive Map` tab, you can visualize the spatial distribution of the data collected. Initially, it would be clear, but you can change the type of visualization to points, lines or raster.
 
 #### Points View
-In the Points View, you could visualize each measurement as a point. In the right panel, the display could be adjusted to your preferences by the following options.
+In the **Points View**, you could visualize each measurement as a point. In the right panel, the display could be adjusted to your preferences by the following options:
 * Choose the range of points
 * Select a variable
 * Pick a color palette
@@ -53,22 +55,41 @@ In the Points View, you could visualize each measurement as a point. In the righ
 * Reduce the opacity
 * Modify the legend
 
+By clicking `Export`, the map could be saved as a png file.
+
 <p>
-    <img src="/www/points.PNG" />
+    <img src="/www/points.PNG" width="850" />
 </p>
 
 #### Line View
+When switching to **Line View**, the direction of movement can be observed through an animation. In the right panel, you can adjust the following options:
+* Choose the range of points
+* Select a base color
+* Pick a pulse color 
+
 <p>
-    <img src="/www/lines.PNG" />
+    <img src="/www/lines.PNG" width="850" />
 </p>
 
 #### Raster View
+By clicking the **Raster View** option, tha app will show an interpolation of the measurements. The preferences that could be adjusted are the following:
+* Choose the range of points
+* Select a variable
+* Pick a color palette
+* Change the resolution (depends on the density of the data collected)
+* Reduce the opacity
+* Modify the legend
+
+By clicking `Export`, the map could be saved as a png file.
+
+
 <p>
-    <img src="/www/raster.PNG" />
+    <img src="/www/raster.PNG" width="850" />
 </p>
 
 ### Plots
+The `Plots` tab contains a variety of graphs that allow a better understanding of the variables.
 
 <p>
-    <img src="/www/plots.PNG" />
+    <img src="/www/plots.PNG" width="850" />
 </p>
