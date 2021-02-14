@@ -130,7 +130,8 @@ ui <- tagList(
                       )
              ),
              tabPanel("About", icon = icon("globe"),
-                      leafletOutput("About", width="100%", height="100%")
+                      leafletOutput("About", width="100%", height="100%"),
+                      img(src='pics/aboutus.png', height = "100%")
              )
   )
 )
