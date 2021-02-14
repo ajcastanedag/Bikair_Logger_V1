@@ -22,11 +22,6 @@ To visualize the logger, you could follow the next steps:
 
 After running the code, a new window with the logger will open.  At first, it will look like the following figure. 
 
-<p>
-    <img src="/www/app.PNG" width="850" />
-</p>
-<br>
-
 ### Data Import 
 #### Load File
 The following step is uploading the data. This is possible from the `Data Import` tab. In the left corner, there is a `Browse` button. By clicking it, you can select the file with the data. It is located in the folder of the repository `\Bikair_Logger_V1-main\Data` <br>
@@ -40,7 +35,7 @@ After loading the file, a table with the data will be displayed. In the left pan
 The variable selected would work as a starting point for the next steps. It could be changed afterward. <br>
 
 <p>
-    <img src="/www/data_import.PNG" width="850" />
+    <img src="/Resources/data_import.PNG" width="850" />
 </p>
 
 ### Interactive Map
@@ -58,7 +53,7 @@ In the **Points View**, you could visualize each measurement as a point. In the 
 By clicking `Export`, the map could be saved as a png file.
 
 <p>
-    <img src="/www/points.PNG" width="850" />
+    <img src="/Resources/points.PNG" width="850" />
 </p>
 
 #### Line View
@@ -68,7 +63,7 @@ When switching to **Line View**, the direction of movement can be observed throu
 * Pick a pulse color 
 
 <p>
-    <img src="/www/lines.PNG" width="850" />
+    <img src="/Resources/lines.PNG" width="850" />
 </p>
 
 #### Raster View
@@ -84,12 +79,12 @@ By clicking `Export`, the map could be saved as a png file.
 
 
 <p>
-    <img src="/www/raster.PNG" width="850" />
+    <img src="/Resources/raster.PNG" width="850" />
 </p>
 
 ### Plots
 The `Plots` tab contains a variety of graphs that allow a better understanding of the variables.
 
 <p>
-    <img src="/www/plots.PNG" width="850" />
+    <img src="/Resources/plots.PNG" width="850" />
 </p>
