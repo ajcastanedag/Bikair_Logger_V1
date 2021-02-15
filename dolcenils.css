@@ -50,7 +50,7 @@ body, label, input, button, select {
   font-weight: 200;
 }
 
-h1, h2, h3, h4 { font-weight: 400; }
+h1, h3, h4 { font-weight: 400; }
 
 #controls {
   /* Appearance */
@@ -79,4 +79,55 @@ h1, h2, h3, h4 { font-weight: 400; }
 /* If not using map tiles, show a white background */
 .leaflet-container {
   background-color: grey!important;
+}
+
+div.main {
+
+  background-color: #282C31;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+ 
+
+
+
+}
+
+/*list of names*/
+div.team{
+column-count: 2;
+column-gap: auto;
+column-rule: 1px solid transparent;
+}
+
+ul.name{
+  
+text-align: left;
+
+list-style-type: circle;
+
+}
+
+h2{font-weight: 400;
+text-align: center;
+}
+
+/*icons*/
+div.cu{ 
+  text-align: left;
+  margin-left: 30%;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: silver;
 }
