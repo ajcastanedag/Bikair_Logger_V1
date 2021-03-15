@@ -133,7 +133,7 @@ ui <- tagList(
              ########################################################################################
              tabPanel("About", icon = icon("globe"),
                       absolutePanel(
-                        includeHTML(paste0(getwd(),"/Resources/About.html"))
+                        includeHTML(paste0(getwd(),"/Resources/About/About.html"))
                       ))
              ########################################################################################
   )
